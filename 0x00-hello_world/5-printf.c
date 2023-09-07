@@ -2,8 +2,8 @@
 /**
 * main - Entry point
 *
-* Return: 0 (Successs) 
-*/ 
+* Return: 0 (Successs)
+*/
 int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
