@@ -4,16 +4,16 @@
  */
 void jack_bauer(void)
 {
-	char i;
-	char j;
+	int i;
+	int j;
 
 	for (i = 0; i <= 22; i++)
 	{
 		for (j = 0; j <= 59; j++)
 		{
-			_putchar(i + '0');
+			_putchar(i);
 			_putchar(':');
-			_putchar(j + '0');
+			_putchar(j);
 			_putchar('\n');
 		}
 	}
