@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- *abs - return the absolute value
+ *_abs - return the absolute value
  *@num - the value to return
  *
  * Return: the absolulute value of num
