@@ -1,14 +1,10 @@
 #include <stdio.h>
-#include <unistd.h>
+#include "main.h"
 /**
  * main - Entry point
  *
  * Return: 0 Always
  */
-int _putchar(char c)
-{
-		return (write(1, &c, 1));
-}
 int main(void)
 {
 	char word[] = "_putchar";
