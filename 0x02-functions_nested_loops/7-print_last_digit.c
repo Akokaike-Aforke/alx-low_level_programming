@@ -7,7 +7,7 @@
  *
  * Return: the last digit of num
  */
-int _abs(int num)
+int print_last_digit(int);
 {
 	return (num % 10);
 }
