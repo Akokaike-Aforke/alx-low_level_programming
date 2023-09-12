@@ -4,7 +4,7 @@
 /**
  *print_abs - return the absolute value
  */
-int _abs(int)
+int _abs(int num)
 {
-	return abs(int)
+	return abs(num);
 }
