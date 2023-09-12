@@ -3,7 +3,7 @@
 #include "main.h"
 /**
  *_abs - return the absolute value
- *@num - the value to return
+ *@num: the value to check
  *
  * Return: the absolulute value of num
  */
