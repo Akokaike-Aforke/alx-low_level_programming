@@ -20,6 +20,7 @@ void print_times_table(int n)
 		{
 			if (j != 0)
 				printf(" ");
+			printf(" ");
 			if (j != n)
 				printf("%d, ", i * j);
 			else
