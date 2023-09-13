@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- *_add - adds 2 numbers
- *@num1, @ num2: the numbers to add 
+ *add - adds 2 numbers
+ *@num1, @num2: the numbers to add
  *
  * Return: the sum of the 2 numbers
  */
