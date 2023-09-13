@@ -15,8 +15,13 @@ void times_table(void)
 		{
 			x = (i * j) / 10;
 			y = (i * j) % 10;
-			_putchar(x + '0');
-			_putchar(y);
+			if(i * j >= 10)
+			{
+				_putchar(x + '0');
+				_putchar(y + '0');
+			}
+			else
+				_putchar(i * j);
 			_putchar(',');
 			_putchar(' ');
 		}
