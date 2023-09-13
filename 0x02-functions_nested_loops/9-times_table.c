@@ -6,6 +6,7 @@ void times_table(void)
 {
 	int i;
 	int j;
+	int u;
 	int x;
 	int y;
 
@@ -13,8 +14,9 @@ void times_table(void)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			x = (i * j) / 10;
-			y = (i * j) % 10;
+			u = (i * (j + 1));
+			x = u / 10;
+			y = u % 10;
 
 			if(i * j >= 10)
 			{
