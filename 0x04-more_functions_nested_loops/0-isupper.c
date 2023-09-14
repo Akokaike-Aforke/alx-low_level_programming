@@ -1,4 +1,5 @@
-#include <stdlib.io>
+#include <ctype.h>"
+
 /**
  * _isupper - checks for upper case letters
  *
@@ -6,7 +7,7 @@
  */
 int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	if (isupper(c))
 		return (1);
 	return (0);
 }
