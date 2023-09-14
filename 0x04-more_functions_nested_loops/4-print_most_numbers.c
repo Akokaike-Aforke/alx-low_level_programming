@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_most_nubers - prints 1-digit numbers except 2 and 4
+ * print_most_numbers - prints 1-digit numbers except 2 and 4
  *
  * Return: void
  */
