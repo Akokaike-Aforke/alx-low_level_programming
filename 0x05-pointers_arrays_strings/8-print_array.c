@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * puts_half - prints n elements of an array
+ * print_array - prints n elements of an array
  * @a: pointer
  * @n: number of elements of the array to be printed
  *
