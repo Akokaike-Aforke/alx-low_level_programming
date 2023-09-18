@@ -12,7 +12,7 @@ void puts_half(char *str)
 {
 	int i;
 
-	for (i = 0; x < n; i++)
+	for (i = 0; i < n; i++)
 		if (i != n - 1)
 		printf("%d, ", a[i]);
 		else
