@@ -5,6 +5,7 @@
  * @b: binary number to be converted
  * Return: returns int
  */
+
 unsigned int binary_to_uint(const char *b)
 {
 	int j;
