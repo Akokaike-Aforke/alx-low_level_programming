@@ -5,6 +5,7 @@
  * @b: binary number to be converted
  * Return: returns int
  */
+
 unsigned int binary_to_uint(const char *b)
 {
 	char *c, *a;
@@ -22,7 +23,7 @@ unsigned int binary_to_uint(const char *b)
 	{
 		if (*a == '0' || *a == '1')
 		{
-			digit = (*a - '0') * pow(2, i);
+			digit = (*a - '0') * power(i);
 			sum += digit;
 			a++;
 			i--;
@@ -31,4 +32,23 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 	}
 	return (sum);
+}
+
+/**
+ * power - finds the num raised to k
+ * @k: parameter
+ * Return: int
+ */
+int power(unsigned int k)
+{
+	unsigned int i, res;
+
+	res = 1;
+	for (i = 1; i <= k; i++)
+	{
+		if (k == 0)
+			return (0);
+		res *= 2;
+	}
+	return (res);
 }
