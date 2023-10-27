@@ -7,28 +7,22 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	char *c, *a;
-	int sum;
-	int digit;
-	int i;
-
-	c = (char *)malloc(sizeof(b));
-	c[0] = '\0';
-	strcpy(c, b);
-	a = c;
-	sum = 0;
-	i = strlen(b) - 1;
-	while (*a)
+	int j;
+	
+	j = 0;
+	while (*b)
 	{
-		if (*a == '0' || *a == '1')
+		if (*b == '0' || *b == '1')
 		{
-			digit = (*a - '0') * pow(2, i);
-			sum += digit;
-			a++;
-			i--;
+			j <<= 1;
+			if (*b == '1')
+			{
+				j += 1;
+			}
+			b++;
 		}
 		else
 			return (0);
 	}
-	return (sum);
+	return (j);
 }
